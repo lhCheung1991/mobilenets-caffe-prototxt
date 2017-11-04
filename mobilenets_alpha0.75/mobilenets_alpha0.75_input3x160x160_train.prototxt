@@ -1,6 +1,4 @@
 name: "MobileNets-alpha0.75-input3x160x160-train"
-# alpha = 0.5 
-# input = 3 x 160 x 160
 layer
 {
     name: "data"
@@ -54,7 +52,6 @@ layer
 
     transform_param {scale: 0.00390625}
 }
-# Convolution conv1: Filter Shape = 3 x 3 x 3 x 32
 layer
 {
     name: "conv1"
@@ -81,7 +78,6 @@ layer
         }
     }
 }
-# BatchNorm conv1/bn
 layer
 {
     name: "conv1/bn"
@@ -106,7 +102,6 @@ layer
     batch_norm_param {use_global_stats: false}
     include {phase: TRAIN}
 }
-# BatchNorm conv1/bn
 layer
 {
     name: "conv1/bn"
