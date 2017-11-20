@@ -1,4 +1,4 @@
-name: "MobileNets-alpha0.75-input3x160x160-train"
+name: "MobileNets-alpha0.25-input3x160x160-train"
 layer
 {
     name: "data"
